@@ -1,5 +1,5 @@
 # mini-App
-一个精简版本的小程序基于uni-ui
+一个精简版本的小程序基于uni-ui 高仿
 
 #
 ![微信截图_20220617172600](https://user-images.githubusercontent.com/30145788/174270441-407c9586-db3e-4cbf-bb17-eeea85d225b7.png)
