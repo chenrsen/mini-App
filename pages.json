@@ -1,0 +1,39 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "subPackages/common",
+		"pages": [{
+			"path": "search/index",
+			"style": {
+				"navigationBarTitleText": "search"
+			}
+		}]
+	}, {
+		"root": "subPackages/member",
+		"pages": [{
+			"path": "list/index",
+			"style": {
+				"navigationBarTitleText": "委员名录"
+			}
+		},{
+			"path": "join/index",
+			"style": {
+				"navigationBarTitleText": "加入会员"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}
